@@ -1,0 +1,22 @@
+Package: keepSampEn
+Title: An improved sample entropy algorithm for signals with missing values
+Version: 1.0
+Date: 2020-07-13
+Authors@R: 
+    person(given = "Chang",
+           family = "CHEN",
+           role = c("aut", "cre"),
+           email = "yb67646@um.edu.mo")
+Maintainer@R: 
+    person(given = "Chang",
+           family = "CHEN",
+           role = c("aut", "cre"),
+           email = "yb67646@um.edu.mo")
+Description: This is a function which can calculate the sample entropy when the signals contain missing values. The research has shown that this algorithm can minimize the error from missing value.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: Rcpp (>= 1.0.2)
+LinkingTo: Rcpp
